@@ -221,7 +221,7 @@ def gameplay_check():
         if len(set(values)) == 1:
             # print(len(set(values)))
             if list(set(values))[0] == user:
-                win_message = 'Вы победили! Изра завершена.'
+                win_message = 'Вы победили! Игра завершена.'
                 print('*' * len(win_message), win_message, '*' * len(win_message), sep='\n')
                 game_over = True
                 break
